@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#u {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#l {
+  float: left;
+  display: block;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  padding-right: 85px;
+}
+#t{
+background-color: black;
+color: white;
+padding-right: 11px
+}
+#y{
+padding-right: 80px;
+}
+img{
+width:150px;
+height:150px;
+}
+#name
+{
+padding-right: 15px
+}
+</style>
+</head>
+<body>
+<table>
+<tr><td id="name">
+<img src="Name.png">
+</td>
+<td>
+<h1> Khafuq Abdullah Altheyab </h1>
+<i><p> I'm Student Software Engineering </p></i>
+</td>
+</tr>
+</table>
+    <ul id="u">
+        <li id="l">Home</li>
+        <li id="l">Education</li>
+        <li id="l">Skills</li>
+        <li id="l">Connact me </li>
+      </ul>
+<table>
+    <td id="y">
+    <h3> Eduction: </h3>
+     <ul type="disc">
+    <li> Bachelor's in Computer Science </li>
+    <li> Master's in Computer Science </li>
+    <li> PhD in Computer Science </li>
+    </ul> 
+</td>
+<td id="t">
+  <h4> Contact Info :</h4>
+  Email: Khafuq.11@gmail.com<br>
+  Phone Number: 0550461933<br>
+  Address :7567 king Fahd Ibn Abdulaziz <br>
+  Sakaka,Al-Jouf
+  </td>
+  </tr>
+  </table>
+   <h3> Skills: </h3>
+   <ul type="disc">
+    <li> Ability to program in Java and C++ </li>
+    <li> Knowledgeable in Excel for data analysis </li>
+   </ul>
+
+   <form>
+    <h3> Conact me: </h3>
+    <label for="Name"> Name </label>
+    <input type="text" id="Name" name="Name">
+    <br>
+    <label for="Email"> Email </label>
+    <input type="text" id="Email" name="Name">
+    <br><br>
+    <label for="Gender"> Gender </label> 
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Male" value="Male">
+    <label for=" Female ">Female </label>
+    <input type="radio" name="gender" id="Female" value="Female">
+    <br><br>
+    <label for="Country"> Country </label>
+    <select name="Country" id="Country">
+        <option value="Aljouf"> Saudi Arabia </option>
+        <option value="istanpol "> Egypt </option>
+        <option value="istanpol "> Turkey </option>
+    </select>
+    <br><br>
+    <label for="desciption"> Message </label> 
+    <textarea id="desciption" name="desciption" rows="5" cols="25">
+    </textarea>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+   </form>
+</body>
+</html>
